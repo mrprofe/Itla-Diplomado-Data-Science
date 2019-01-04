@@ -1,0 +1,215 @@
+Qualify *;
+Unqualify CategoryID,
+CustomerID,
+OrderID,
+ProductID,
+EmployeeID,
+SupplierID,
+CategoryID,
+RegionID,
+TerritoryID
+;
+
+LOAD CategoryID, 
+	CategoryName, 
+	Description, 
+	Picture;
+
+[Categories]:
+SELECT CategoryID, 
+	CategoryName, 
+	Description, 
+	Picture 
+FROM Northwind.dbo.Categories;
+
+LOAD CustomerID, 
+	CompanyName, 
+	ContactName, 
+	ContactTitle, 
+	Address, 
+	City, 
+	Region, 
+	PostalCode, 
+	Country, 
+	Phone, 
+	Fax;
+
+[Customers]:
+SELECT CustomerID, 
+	CompanyName, 
+	ContactName, 
+	ContactTitle, 
+	Address, 
+	City, 
+	Region, 
+	PostalCode, 
+	Country, 
+	Phone, 
+	Fax 
+FROM Northwind.dbo.Customers;
+
+LOAD OrderID, 
+	ProductID, 
+	UnitPrice, 
+	Quantity, 
+	Discount;
+
+[Order Details]:
+SELECT OrderID, 
+	ProductID, 
+	UnitPrice, 
+	Quantity, 
+	Discount 
+FROM Northwind.dbo."Order Details";
+
+LOAD OrderID, 
+	CustomerID, 
+	EmployeeID, 
+	OrderDate, 
+	RequiredDate, 
+	ShippedDate, 
+	ShipVia, 
+	Freight, 
+	ShipName, 
+	ShipAddress, 
+	ShipCity, 
+	ShipRegion, 
+	ShipPostalCode, 
+	ShipCountry;
+
+[Orders]:
+SELECT OrderID, 
+	CustomerID, 
+	EmployeeID, 
+	OrderDate, 
+	RequiredDate, 
+	ShippedDate, 
+	ShipVia, 
+	Freight, 
+	ShipName, 
+	ShipAddress, 
+	ShipCity, 
+	ShipRegion, 
+	ShipPostalCode, 
+	ShipCountry 
+FROM Northwind.dbo.Orders;
+
+LOAD ProductID, 
+	ProductName, 
+	SupplierID, 
+	CategoryID, 
+	QuantityPerUnit, 
+	UnitPrice, 
+	UnitsInStock, 
+	UnitsOnOrder, 
+	ReorderLevel, 
+	Discontinued;
+
+[Products]:
+SELECT ProductID, 
+	ProductName, 
+	SupplierID, 
+	CategoryID, 
+	QuantityPerUnit, 
+	UnitPrice, 
+	UnitsInStock, 
+	UnitsOnOrder, 
+	ReorderLevel, 
+	Discontinued 
+FROM Northwind.dbo.Products;
+
+LOAD RegionID, 
+	RegionDescription;
+
+[Region]:
+SELECT RegionID, 
+	RegionDescription 
+FROM Northwind.dbo.Region;
+
+LOAD SupplierID, 
+	CompanyName, 
+	ContactName, 
+	ContactTitle, 
+	Address, 
+	City, 
+	Region, 
+	PostalCode, 
+	Country, 
+	Phone, 
+	Fax, 
+	HomePage;
+
+[Suppliers]:
+SELECT SupplierID, 
+	CompanyName, 
+	ContactName, 
+	ContactTitle, 
+	Address, 
+	City, 
+	Region, 
+	PostalCode, 
+	Country, 
+	Phone, 
+	Fax, 
+	HomePage 
+FROM Northwind.dbo.Suppliers;
+
+LOAD TerritoryID, 
+	TerritoryDescription, 
+	RegionID;
+
+[Territories]:
+SELECT TerritoryID, 
+	TerritoryDescription, 
+	RegionID 
+FROM Northwind.dbo.Territories;
+
+
+LOAD EmployeeID, 
+	LastName, 
+	FirstName, 
+	Title, 
+	TitleOfCourtesy, 
+	BirthDate, 
+	HireDate, 
+	Address, 
+	City, 
+	Region, 
+	PostalCode, 
+	Country, 
+	HomePhone, 
+	Extension, 
+	Photo, 
+	Notes, 
+	ReportsTo, 
+	PhotoPath;
+
+[Employees]:
+SELECT EmployeeID, 
+	LastName, 
+	FirstName, 
+	Title, 
+	TitleOfCourtesy, 
+	BirthDate, 
+	HireDate, 
+	Address, 
+	City, 
+	Region, 
+	PostalCode, 
+	Country, 
+	HomePhone, 
+	Extension, 
+	Photo, 
+	Notes, 
+	ReportsTo, 
+	PhotoPath 
+FROM Northwind.dbo.Employees;
+
+
+LOAD EmployeeID, 
+	TerritoryID;
+
+[EmployeeTerritories]:
+SELECT EmployeeID, 
+	TerritoryID 
+FROM Northwind.dbo.EmployeeTerritories;
