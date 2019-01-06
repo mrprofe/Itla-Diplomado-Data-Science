@@ -1,0 +1,13 @@
+# Dado los siguientes pesos en libra de una muestra de papas de una cosecha, 
+# realizar un analis exploratorio estadistico basico.
+2,4,16,3,2,2,5,7,6,1,8
+
+Media?
+Moda?
+Mediana?
+Rango?
+Desviacion Estandar?
+Q1,Q2,Q3?
+IQR?
+
+#Identificar cuales papas no corresponden con pesos normales (valores atipicos/outliers)

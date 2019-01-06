@@ -1,0 +1,7 @@
+# Representar los datos utilizando herramientas de visualizacion preferida,
+# y responder las siguientes preguntas:
+
+1- Cuales son los productos que mas se han vendido?
+2- Cuantas ordenes se han realizado en total?
+3- De cuales paises son los proveedores de las mercancias que mas se venden?
+4- Cuales categorias de productos son las que mas ventas generan?

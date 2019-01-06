@@ -1,0 +1,8 @@
+# Identificar que modelo aplicar para resolver los siguientes problemas de aprendizaje:
+
+1 - Se necesita hacer una campana publicitaria pero no tenemos mucho presupuesto por lo que tenemos que identificar
+    a los mejores potenciales clientes.
+2 - Identificar si un correo electronico es o no un spam
+3 - Precio del alquiler de una casa
+4 - Reconocer todos tus amigos en una foto subida a facebook
+5 - Ayer vi la pelicula Cars de la empresa pixar en netflix y hoy me ha recomendado que vea a Coco

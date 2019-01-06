@@ -1,0 +1,7 @@
+# Realizar las siguientes operaciones DML en la base de datos northwind.
+
+1: Crear un producto nuevo, ingresando su categoría y suplidor
+2: Identificar todos los suplidores que tienen la región en blanco y rellenar con el valor “N/A”
+3: Eliminar de la tabla de detalle de ordenes todos aquellos productos con valor 1
+4: Listar todos los registros de la tabla de territorios
+5: Tratar de eliminar todos los registros de la tabla de ordenes
