@@ -1,0 +1,6 @@
+Identifica las siguientes variables como discretas o continuas:
+
+1-Número de ases extraidos si se extraen 5 cartas de un mazo de cartas
+2-Número de juegos ganados por el Manchester United durante la 2018 Premier League Season
+3-Cuota de mercado durante su primer año para un nuevo medicamento con estatinas.
+4-Tiempo que esperas en fila en seguridad TSA

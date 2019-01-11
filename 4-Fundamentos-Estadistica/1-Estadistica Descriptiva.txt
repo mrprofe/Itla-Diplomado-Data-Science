@@ -1,0 +1,48 @@
+-- Variables --
+
+1- Clasifique el tipo de datos y la escala de medición para la siguiente variable: 
+
+"Su cadena de comida rápida favorita"
+Tipo de Dato?
+Escala?
+
+2- Clasifique el tipo de datos y la escala de medición para la siguiente variable: 
+"el tamaño de su zapato"
+Tipo de Dato?
+Escala?
+
+3- Clasifique el tipo de datos y la escala de medición para la siguiente variable: 
+"el margen de beneficio porcentual de una compañía"
+Tipo de Dato?
+Escala?
+
+
+4- Clasifique el tipo de datos y la escala de medición para la siguiente variable: 
+"Nivel de educación: algunos estudios secundarios, graduados de estudios secundarios, algunos estudios universitarios, graduados universitarios"
+Tipo de Dato?
+Escala?
+
+-- Medidas --
+
+1- Los pesos de seis amigos son: 84, 91, 72, 68, 87 y 78 kg. Hallar el peso medio.
+
+2- Para la calificacion de un examen final, dos de los primeros exámenes tienen un peso o valor de 30% y 20% respectivamente, y el último del 50%; las calificaciones respectivas son de 6.4, 9.2 y 8.1, entonces la nota final corresponde a la siguiente media ponderada?
+
+3- Un profesor pide a sus alumnos que realicen un experimento en el laboratorio. Espera que los alumnos obtengan 5 litros de ácido clorhídrico. Anota en una tabla una columna con las cantidades de ácido obtenidos por cada alumno y en la otra el error por falta o exceso de la cantidad esperada, de la siguiente manera:
+
+Alumno	Litros	error
+Jorge	5.68	0.68
+andrea	4.62	-0.38
+raul	3.98	-1.02
+maria	6.12	1.12
+amparo	5.23	0.23
+juan	4.28	0.72
+
+4- Hallar la mediana y la moda de la siguientes series de números:
+	3, 5, 2, 6, 5, 9, 5, 2, 8
+
+5- Se tiene el siguiente conjunto de 26 datos, identificar los cuartiles, rango, iqr:
+	10, 13, 4, 7, 8, 11 10, 16, 18, 12, 3, 6, 9, 9, 4, 13, 20, 7, 5, 10, 17, 10, 16, 14, 8, 18
+
+6- Encontrar la media, la varianza y la desviacion tipica:
+	12, 6, 7, 3, 15, 10, 18, 5.

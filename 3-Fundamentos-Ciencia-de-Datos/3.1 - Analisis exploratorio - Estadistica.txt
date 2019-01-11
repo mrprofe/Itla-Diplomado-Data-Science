@@ -2,12 +2,11 @@
 # realizar un analis exploratorio estadistico basico.
 2,4,16,3,2,2,5,7,6,1,8
 
-Media?
-Moda?
-Mediana?
-Rango?
-Desviacion Estandar?
-Q1,Q2,Q3?
-IQR?
-
-#Identificar cuales papas no corresponden con pesos normales (valores atipicos/outliers)
+1-Media?
+2-Moda?
+3-Mediana?
+4-Rango?
+5-Desviacion Estandar?
+6-Q1,Q2,Q3?
+7-IQR?
+8-Identificar cuales papas no corresponden con pesos normales (valores atipicos/outliers)

@@ -1,0 +1,4 @@
+
+1-Cuando se lanzan dos dados de seis caras, ¿cuál es la probabilidad de lanzar un total de 6?
+2-Al lanzar una moneda 3 veces, ¿cuál es la probabilidad de lanzar 2 o 3 caras?
+3-Al sacar una carta de un mazo de cartas, ¿cuál es la probabilidad de sacar un 6 o un 3?

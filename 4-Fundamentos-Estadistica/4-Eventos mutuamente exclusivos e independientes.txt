@@ -1,0 +1,7 @@
+1- Los eventos A y B son mutuamente excluyentes. ¿Pueden los eventos A y B ser independientes?
+2- El 30% de todos los estudiantes en Carver High School juegan baloncesto, el 20% corre a campo traviesa y el 10% hace ambas cosas (es decir, juega baloncesto y corre a campo traviesa).
+
+¿Qué porcentaje de los estudiantes juegan al menos un deporte?
+
+3- Supongamos que elegimos al azar un número entero entre uno y diez inclusive. Sea A = evento que el número es primo. 
+Sea B = evento de que el número sea menor o igual a 5

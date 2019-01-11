@@ -1,0 +1,5 @@
+1- Una rueda de la ruleta contiene los números 0, 00, 1, 2, ..., 36. Supongamos que apuesta a que 00 ganará en cada uno de los 25 giros. Después de 25 giros, ¿cuál es la probabilidad de que hayas ganado al menos una vez?
+
+2- Supongamos que el 10% de todos los adultos ven el programa de televisión "The Bachelor" y que la mitad de los adultos son hombres. Supongamos que el 80% de los espectadores de "The Bachelor" son mujeres, calcula la probabilidad de que una mujer determinada sea un espectador de "The Bachelor".
+
+3- Un bol contiene 4 bolas rojas y 6 bolas azules. Dos bolas son extraídas (sin reemplazo) del tazón. Dado que la segunda bola es azul, ¿cuál es la probabilidad de que la primera bola sea azul?

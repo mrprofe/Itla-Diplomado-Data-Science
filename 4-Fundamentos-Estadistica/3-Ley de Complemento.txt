@@ -1,0 +1,4 @@
+
+1- Si arrojas 3 dados de seis caras, ¿cuál es la probabilidad de que tu total esté entre 4 y 17 inclusive?
+2- Si se toma una carta de un mazo de cartas, ¿cuál es la probabilidad de que la carta NO sea un diamante?
+3- En una familia con 3 hijos, ¿cuál es la probabilidad de que haya un hijo de cada género (hombre / mujer)?
