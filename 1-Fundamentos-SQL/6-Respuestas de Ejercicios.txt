@@ -1,0 +1,49 @@
+# Realizar las siguientes operaciones DML en la base de datos northwind.
+
+1: Crear un producto nuevo, ingresando su categoría y suplidor
+
+	--Para los fines de insertar un producto nuevo, antes se deben insertar su categoria y suplidor ya que la tabla de prodcuto 
+	--tiene como requisito que existen dichos valores
+
+	--Insertar nuevo Suplidor
+	insert into dbo.Suppliers (CompanyName,ContactName,ContactTitle,Address,City,Region,PostalCode,Country,Phone,Fax,HomePage)
+	values ('Pavlova, Ltd.','Ian Devling','Marketing Manager','74 Rose St. Moonie Ponds','Melbourne','Victoria',3058,'Australia','(03) 444-2343','(03) 444-6588',NULL)
+
+	--Insertar nueva categoria
+	insert into dbo.Categories (CategoryName,Description,Picture) 
+	values ('Bebidas','Liquidos',null)
+
+	--Insertar productos
+	insert into dbo.Products (ProductName,SupplierID,CategoryID,QuantityPerUnit,UnitPrice,UnitsInStock,UnitsOnOrder,ReorderLevel,Discontinued)
+	values ('Palitos de queso',	30,	10,	'12 boxes',	13.00,	32,	0,	15,	0)
+
+2: Identificar todos los suplidores que tienen la región en blanco y rellenar con el valor “N/A”
+
+	--Los registros que tienen null como valor en el campo region para confirmar
+	select * from [dbo].[Suppliers] where Region is null 
+
+	-- Actualizar el campo Region con un valor que pueda ser reprentativo para aquellos registros que no tengan nada en dicho campo.
+	update dbo.Suppliers set region = 'N/A' where Region is null
+
+3: Eliminar de la tabla de detalle de ordenes todos aquellos productos con valor 1
+	
+	--Consultar los registros para confirmar cuantos registos se tendrian que eliminar
+	select * from [dbo].[Order Details] where ProductID=1
+
+	--Eliminar registros con la condicion de que el codigo de producto sea igual a 1
+	delete [Order Details] where ProductID=1
+
+4: Listar todos los registros de la tabla de territorios
+
+	--Muestra todos los datos de la tabla de territorios.
+	select * from dbo.Territories
+
+5: Tratar de eliminar todos los registros de la tabla de clientes
+
+	-- Cuando tratamos de eliminar los registros de una tabla que ya tiene relacion con otra, el sistema nos
+	-- indica que dicha accion no puede realizarse. Esto es uno de los principios de base de datos relacional
+	-- En este caso en concreto, si queremos eliminar registros de la tabla de clientes el sistema estaria negando dicha accion puesto 
+	-- que esta tabla tiene una relacion con la tabla de Ordenes.
+
+	delete from dbo.Customers
+	"The DELETE statement conflicted with the REFERENCE constraint "FK_Orders_Customers". The conflict occurred in database "Northwind", table "dbo.Orders", column 'CustomerID'."
