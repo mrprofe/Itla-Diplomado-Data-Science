@@ -1,0 +1,16 @@
+1- Listar todos los atributos/características de los productos
+2- Identificar cuantos clientes han realizado ordenes de compra
+3- Listar todas categorías de productos existentes.
+4- Mostrar el resultado de consultar todos los empleados con nombres en español
+5- Mostrar todas las ordenes creadas a partir del 1ro de enero del 2017
+6- Mostrar todas las categorías que sean de tipo bebida
+7- Cuales suplidores son de UK, USA y Japón
+8- Mostrar los productos ordenados por precio de mayor a menor
+9-  Listado de clientes ordenados según el orden en que fueron registrados al sistema (ID)
+10- Cuales clientes son de Nacionalidad francesa, específicamente de París?
+11- Cuales productos vienen en unidades de botellas y latas (sin importar el tamaño)
+12- Mostrar las primeras 10 compras realizadas en 1997
+13- Cantidad de suplidores por país.
+14- Cantidad de productos por Orden de compra
+15- Mostrar Nombre, apellido y Fecha de Nacimiento de los empleados
+16- Cuantas ordenes en total se han realizado.

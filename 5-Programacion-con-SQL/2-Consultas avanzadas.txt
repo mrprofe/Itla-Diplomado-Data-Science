@@ -1,0 +1,5 @@
+1- Mostrar id, nombre y tipo (cliente o empleado) de las personas involucradas en una orden.
+2- De los 91 clientes existentes, cuantos tienen ordenes realizadas?
+3- Listar todos los clientes que no han realizado ninguna compra?
+4- Listar todas las ordenes de compra y en vez de presentar los IDs, presentar sus respectivas descripciones.
+5- Mostrar los datos del cliente y de las ordenes (si ha realizado alguna)
