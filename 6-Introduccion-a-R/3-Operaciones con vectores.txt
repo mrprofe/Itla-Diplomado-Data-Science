@@ -1,0 +1,41 @@
+1. Hemos visto diferentes formas de definir vectores con R. Supongamos que queremos
+definir el vector x = (1, 2, 3, 4, 5). Comprueba que las siguientes formas son equivalentes.
+> x<-c(1,2,3,4,5)
+> x<-1:5
+> x<-seq(1,5)
+
+2. Define el vector y = (1, 3, 5, 7) utilizando la funcion c(). ¿Como lo harias con
+la funcion seq() ?. Recuerda que si tienes alguna duda sobre como se definen las
+funciones siempre puedes consultar la ayuda.
+
+3. Define los siguientes vectores. Intenta hacerlo de diferentes formas.
+a) x = (8, 7, 6, 5)
+b) y = (3, 3, 3, 3, 3, 3, 3, 3, 2, 2)
+
+
+4. Aunque pensamos en vectores como conjuntos de numeros, un vector en R no es
+mas que celdas contiguas conteniendo datos. Estos datos deben ser del mismo tipo,
+pero no necesariamente numeros. Podemos construir asi vectores de tipo logical o
+vectores de tipo character entre otros. Por ejemplo, hemos creado el vector chica.
+El resultado es
+> chica
+[1] "Ana" "Maria" "Natalia" "Almudena"
+¿Como ha sido definido dicho vector?
+
+5. En muchas ocasiones nos interesa hacer referencia a determinadas componentes de
+un vector. Hemos visto que para ello utilizaremos los corchetes [ ] . Crea el vector
+x = (2,-5, 4, 6,-2, 8). A partir de dicho vector define:
+	a) y = (2, 4, 6, 8). Asi definido y es el vector formado por las componentes positivas de x.
+	b) z = (-5,-2). Asi definido z es el vector formado por las componentes negativas de x.
+	c) v = (-5, 4, 6,-2, 8). Asi definido v es el vector x eliminada la primera componente.
+	d) w = (2, 4,-2). Asi definido w es el vector x tomando las componentes impares.
+
+6. La funcion logaritmo solo esta definida para valores positivos. Construye el vector
+x = (3, log(-15), 5). ¿Que ocurre? Utiliza la funcion is.nan() y recicla x de forma
+que sea un vector sin componentes NaN.
+
+7. Sabemos que para sumar vectores estos deben tener la misma longitud. Sin embargo
+R trabaja de manera distinta. Define los vectores x = (1, 2, 3, 4, 5, 6), y = (7, 8),z = (9, 10, 11, 12). Calcula:
+a) x + x
+b) x + y. ¿Que ha hecho R?
+c) x+z. Ahora R da un warning pero aun asi nos da un resultado. ¿Como lo ha calculado?

@@ -1,0 +1,27 @@
+1. ¿Cual es el directorio de trabajo por defecto de R?
+
+2. Crea una carpeta EjerciciosR en la ubicacion que prefieras de tu ordenador y
+establecela como directorio de trabajo de R. Comprueba que efectivamente lo has
+hecho bien con el comando getwd().
+
+3. Crea un archivo ejemplo.R con el siguiente codigo:
+	area.rectangulo<-function(base,altura){
+	 return(base*altura)
+	}
+
+La funcion area.rectangulo simplemente devuelve el area de un rectangulo dadas
+su base y altura. Ejecuta la funcion en R y calcula con ella el area de un rectangulo
+de base 8 cm y altura 3 cm. Guarda el archivo en el directorio de trabajo que has
+creado en el ejercicio anterior. Supongamos que la proxima vez que ejecutamos R
+queremos volver a utilizar la funcion area.rectangulo. ¿Como lo harias? Veras que
+si simplemente tecleas
+> area.rectangulo(4,5)
+lo que obtienes sera un mensaje de error del tipo
+Error: couldn’t find function "area.rectangulo"
+
+4. Las edades de un grupo de amigos son 27, 23, 29, 24 y 31 anios. Crea un vector
+edades con estos datos y calcula su media, de forma que la salida se guarde en un
+fichero llamado amigos.
+Vuelve a calcularla pero de manera que ahora el resultado salga por pantalla.
+
+5. ¿Como obtienes el archivo de texto con los ultimos comandos ejecutados?

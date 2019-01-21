@@ -1,0 +1,20 @@
+1. La funcion mean calcula la media aritmetica de una serie de valores. ¿Cuales son
+los argumentos de dicha funcion?
+
+2. Dado un conjunto de valores, sabemos que existe una funcioon en R que calcula el
+maximo, pero no recordamos su nombre. ¿Serias capaz de encontrarla a traves de
+la ayuda? Recuerda que la ayuda esta en ingles.
+
+3. Queremos utilizar el comando help.search para obtener informacion sobre la funcion plot. 
+El resultado es el siguiente:
+> help.search(plot)
+Error in help.search(plot) : argument ’pattern’ must be a single character string
+¿Por que nos da error? ¿Como lo escribirias de forma correcta?
+
+4. Hemos visto que la funcion apropos nos permite realizar busquedas de objetos. En
+la ayuda de dicha funcion aparecen diferentes ejemplos de como usarla. Siguiendo
+esos ejemplos:
+	a) Busca los objetos cuyo nombre empiece por var.
+	b) Busca los objetos cuyo nombre tenga de 5 a 7 caracteres.
+
+5. ¿Cuales son las librerias cargadas por defecto en R?
