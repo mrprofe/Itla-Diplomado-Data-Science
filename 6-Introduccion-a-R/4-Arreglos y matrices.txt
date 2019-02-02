@@ -1,0 +1,48 @@
+1. Define el vector x = (1, 2, 3, 4, 5, 6). A partir de dicho vector se han construido las
+matrices m1, m2, m3, m4
+	> m1
+	[,1] [,2] [,3]
+	[1,] 1 3 5
+	[2,] 2 4 6
+	
+	> m2
+		[,1] [,2]
+	[1,] 1 4
+	[2,] 2 5
+	[3,] 3 6
+	
+	> m3
+		[,1] [,2] [,3]
+	[1,] 1 2 3
+	[2,] 4 5 6
+	
+	> m4
+		[,1] [,2] [,3]
+	[1,] 1 4 1
+	[2,] 2 5 2
+	[3,] 3 6 3
+
+	Todas las matrices se han definido a partir de matrix(x,...). Intenta reproducir el
+	codigo necesario para obtener cada una de ellas. Recuerda que puedes consultar la
+	ayuda.
+
+2. ¿Que ocurre cuando definimos una matriz en R y solo especificamos el numero de
+filas o el numero de columnas? ¿Que ocurre cuando los datos no se corresponden
+con la dimension de la matriz que queremos definir? Compruebalo ejecutando los
+siguientes comandos:
+
+	>matrix(1:6,nrow=2)
+	>matrix(1:6,nrow=4)
+	>matrix(1:6,nrow=4,ncol=4)
+
+
+3. Sean A una matriz 2×3, B una matriz 3×4 y C una matriz 2×3. ¿De que tipo y
+dimension seran los objetos obtenidos de los siguientes comandos de R? ¿Alguno
+de los comandos produce mensajes de error? ¿Por que?
+	a) A*B
+	b) outer(A,B)
+	c) A+2
+	d) A%*%B
+	e) exp(B). Nota: exp() es la funcion exponencial.
+	f ) A*C
+	g) A%*%C

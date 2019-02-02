@@ -1,0 +1,18 @@
+1. Un grupo de amigos esta formado por Ana de 23 a˜nos, Luis de 24 a˜nos, Pedro de
+22, Juan de 24, Eva de 21 y Jorge de 22 a˜nos. Crea los vectores correspondientes
+a nombre, edad y sexo. (Usa la codificacion M=mujer, H=hombre). Convierte el
+vector sexo en un factor sexf. ¿Cuales son los niveles de dicho factor?
+
+2. Con los datos anteriores hemos creado el dataframe amigos. El resultado es:
+	> amigos
+	nombre edad sexo
+	1 Ana 23 M
+	2 Luis 24 H
+	3 Pedro 22 H
+	4 Juan 24 H
+	5 Eva 21 M
+	6 Jorge 22 H
+¿Cual es el codigo de R da como resultado esta salida?
+
+3. ¿Cual es la edad media de las chicas del grupo? ¿Y la de los chicos? Intenta
+responder a ambas preguntas con un ´unico comando.
